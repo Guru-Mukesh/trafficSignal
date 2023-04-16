@@ -1,0 +1,122 @@
+
+body{
+    width: 100vw;
+height: 100vh;
+background: black;
+}
+
+.container-fluid{
+    display: flex;
+position: relative;
+justify-content: center;
+padding-top: 150px;
+}
+/* trafic light one */
+.Traffic1 #traffic-signal{
+    box-shadow: 0px 1px 15px 12px #d6d1d1;
+}
+.Traffic1  #line1{
+    box-shadow: 0px 15px 14px 4px #d6d1d1;
+}
+.Traffic1  #line2{
+    box-shadow: 0px 1px 10px 1px #d6d1d1;
+}
+
+
+/* Taffic Signal two */
+.Traffic2{
+position: absolute;
+top: 109%;
+}
+.Traffic2 #traffic-signal{
+box-shadow: 0px 1px 15px 12px #d6d1d1;
+}
+.Traffic2 #line1{
+box-shadow: 0px 15px 14px 4px #d6d1d1;
+}
+.Traffic2 #line2{
+box-shadow: 0px 0px 11px 1px #d6d1d1;    }
+
+
+/* Traffic Signal three */
+.Traffic3{
+position: absolute;
+left: 28%;
+top: 62%;
+transform: rotateY(308deg);
+}
+.Traffic3 #traffic-signal{
+width: 49px;
+box-shadow: -15px 3px 19px 3px #d6d1d1;
+}
+.Traffic3 #traffic-signal>div {
+width: 25px;
+}
+.Traffic3 #line1{
+margin-left: 19px;
+box-shadow: -11px 4px 19px 4px #d6d1d1;
+}
+.Traffic3 #line2{
+width: 49px;
+box-shadow: -13px 1px 10px 3px #d6d1d1;
+}
+
+
+/* Traffic signal four  */
+.Traffic4{
+position: absolute;
+top: 62%;
+right: 29%;
+
+transform: rotateY(47deg);
+}
+.Traffic4 #traffic-signal>div {
+width: 25px;
+}
+.Traffic4 #traffic-signal{
+width: 46px ;;
+}
+.Traffic4 #traffic-signal{
+box-shadow: 10px 3px 19px 3px #d6d1d1;
+}
+.Traffic4 #line1{
+box-shadow: 10px 4px 19px 4px #d6d1d1;
+margin-left: 19px;
+}
+.Traffic4 #line2{
+width: 49px;
+box-shadow: 9px 1px 10px 3px #d6d1d1;
+}
+
+
+
+/* Global Css */
+#traffic-signal{
+    border: 8px solid #ffffff;
+padding: 10px 3px;
+width: 42px;
+border-radius: 50px;
+
+}
+#traffic-signal>div{
+width:20px;
+height:20px;
+border-radius:50%;
+opacity:.3}
+
+#line1{
+height:100px;
+width:10px;
+background:#ffffff;
+margin-left:15px}
+
+#line2{
+height:10px;
+width:40px;
+background:#fff}
+#green{
+background-color:green}
+#yellow{
+background-color:#ff0}
+#red{
+background-color:red}
